@@ -48,6 +48,8 @@ ng s -o
     ng g c contactmanager\components\sidenav --skip-tests
 
     ng g s contactmanager\services\user --dry-run
+    ng g class contactmanager\models\user
+    ng g class contactmanager\models\note
     
 
 
